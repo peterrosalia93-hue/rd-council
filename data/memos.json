@@ -1,0 +1,69 @@
+{
+  "lastUpdated": "2026-03-28",
+  "memos": [
+    {
+      "id": "memo-housify-001",
+      "title": "Housify: trust-first growth wedge",
+      "project": "Housify",
+      "status": "high-priority",
+      "summary": "Position Housify as a trust-and-transaction platform instead of just a listing app. The strongest wedge is verified landlords, booking workflow, and M-Pesa-linked payments.",
+      "scoutIdeas": [
+        "Launch a premium landlord verification tier with trust badges and faster tenant matching.",
+        "Create a relocation concierge upsell for busy professionals and diaspora clients.",
+        "Turn build progress into founder content to attract both users and investors."
+      ],
+      "criticResponse": [
+        "A concierge model can distract from core workflow unless tightly scoped.",
+        "Verification only matters if users can clearly see why it reduces fraud and wasted time.",
+        "Investor content works best after the product flow is believable, not before."
+      ],
+      "finalRecommendations": [
+        "Build the minimum trust layer first: verified landlord profiles, booking flow, and clear proof of legitimacy.",
+        "Test one monetization path immediately: landlord subscription or pay-per-verified-listing.",
+        "Capture before/after stories from the Nairobi rental process as content assets."
+      ],
+      "revenueAngles": [
+        "Landlord subscription tier",
+        "Featured verified listings",
+        "Relocation concierge add-on"
+      ],
+      "nextActions": [
+        "Define the landlord verification workflow in product terms.",
+        "Map the M-Pesa-backed booking/payment funnel.",
+        "Draft a 30-day founder content sequence around trust in Nairobi housing."
+      ]
+    },
+    {
+      "id": "memo-portfolio-001",
+      "title": "Portfolio-level recommendation: fewer fronts, stronger loops",
+      "project": "Portfolio",
+      "status": "active",
+      "summary": "The council's strongest cross-project recommendation is to concentrate effort on one flagship app, one cash-generating service, and one content engine rather than many parallel build tracks.",
+      "scoutIdeas": [
+        "Use one flagship app as the credibility anchor.",
+        "Use services/consulting/concierge layers to create early cashflow around unfinished apps.",
+        "Use your build journey as content to compound reach and inbound opportunities."
+      ],
+      "criticResponse": [
+        "Too many concept-stage projects create narrative fragmentation and execution drag.",
+        "Revenue experiments need short feedback loops, not abstract long-term plans.",
+        "A content engine without a focused flagship becomes noise."
+      ],
+      "finalRecommendations": [
+        "Pick one flagship product to push toward investor-testable quality.",
+        "Pair it with one immediately monetizable service offer.",
+        "Use content as an amplification layer, not a separate burden."
+      ],
+      "revenueAngles": [
+        "Concierge service around unfinished product workflows",
+        "Premium consulting / done-with-you implementation",
+        "Content-led inbound partnerships"
+      ],
+      "nextActions": [
+        "Choose the flagship project for the next 30 days.",
+        "Define one service offer that can monetize before full software completion.",
+        "Create a weekly council review cadence for new memos."
+      ]
+    }
+  ]
+}

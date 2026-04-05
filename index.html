@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>R&D Council</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="hero card">
+      <div>
+        <p class="eyebrow">Mwakulomba × Osho</p>
+        <h1>R&D Council</h1>
+        <p class="subtitle">A 24/7 AI research team dashboard for new ideas, internal debate, and final strategy memos.</p>
+      </div>
+      <div class="hero-meta">
+        <div class="metric"><span class="metric-label">Cadence</span><strong id="cadence">—</strong></div>
+        <div class="metric"><span class="metric-label">Council Models</span><strong id="modelCount">0</strong></div>
+        <div class="metric"><span class="metric-label">Saved Memos</span><strong id="memoCount">0</strong></div>
+      </div>
+    </header>
+
+    <main class="grid">
+      <section class="card span-2">
+        <div class="section-head">
+          <h2>Mission Control</h2>
+          <span class="pill">Operating Spec</span>
+        </div>
+        <p id="missionText" class="body-text"></p>
+        <div class="workflow" id="workflowList"></div>
+      </section>
+
+      <section class="card">
+        <div class="section-head">
+          <h2>Focus Queue</h2>
+          <span class="pill muted">Watchlist</span>
+        </div>
+        <div id="focusAreas" class="tag-grid"></div>
+      </section>
+
+      <section class="card span-2">
+        <div class="section-head">
+          <h2>Council Members</h2>
+          <span class="pill">3-Agent Loop</span>
+        </div>
+        <div id="modelsGrid" class="models-grid"></div>
+      </section>
+
+      <section class="card">
+        <div class="section-head">
+          <h2>Memo Filters</h2>
+          <span class="pill muted">Search</span>
+        </div>
+        <label for="projectFilter" class="label">Project</label>
+        <select id="projectFilter" class="input"></select>
+        <label for="memoSearch" class="label">Keyword</label>
+        <input id="memoSearch" class="input" type="search" placeholder="trust, revenue, concierge, KNUT..." />
+      </section>
+
+      <section class="card span-2">
+        <div class="section-head">
+          <h2>Final Memos</h2>
+          <span class="pill">Recommendations</span>
+        </div>
+        <div id="memosList" class="memo-list"></div>
+      </section>
+
+      <section class="card">
+        <div class="section-head">
+          <h2>Operator Notes</h2>
+          <span class="pill muted">Local</span>
+        </div>
+        <textarea id="operatorNotes" class="text-area" placeholder="Track patterns, new prompts, model choices, or automation ideas here..."></textarea>
+        <button id="saveNotesBtn" class="primary-btn">Save Notes</button>
+      </section>
+
+      <section class="card span-3">
+        <div class="section-head">
+          <h2>Recommended Automation Architecture</h2>
+          <span class="pill">Next Build Step</span>
+        </div>
+        <div class="architecture-grid">
+          <div class="arch-card"><h3>1. Context Intake</h3><p>Read active projects, recent memory, and workspace notes.</p></div>
+          <div class="arch-card"><h3>2. Scout Pass</h3><p>Generate bold ideas, new business models, content leverage, and market wedges.</p></div>
+          <div class="arch-card"><h3>3. Critic Pass</h3><p>Attack the weak spots: risk, timing, adoption, complexity, and false upside.</p></div>
+          <div class="arch-card"><h3>4. Builder Pass</h3><p>Synthesize the strongest moves into an action memo with ranked next steps.</p></div>
+          <div class="arch-card"><h3>5. Dashboard Sync</h3><p>Save structured outputs into JSON so the dashboard always shows the newest memo.</p></div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>

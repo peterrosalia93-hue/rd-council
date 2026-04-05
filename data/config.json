@@ -1,0 +1,44 @@
+{
+  "owner": "Osho",
+  "dashboardName": "R&D Council",
+  "mission": "Run a 24/7 AI research and development loop that studies Osho's active work, proposes new ideas, pressure-tests them through debate, and produces clear revenue and product recommendations.",
+  "cadence": "Every 6 hours",
+  "workflow": [
+    "Ingest active project context",
+    "Scout model generates opportunities",
+    "Critic model attacks weak assumptions and highlights risk",
+    "Builder model synthesizes the strongest paths",
+    "Final memo ranks recommendations by upside, effort, and speed to test"
+  ],
+  "models": [
+    {
+      "name": "Scout",
+      "role": "Opportunity hunter",
+      "focus": ["new product ideas", "distribution", "partnerships", "new revenue lines", "content leverage"],
+      "status": "configured"
+    },
+    {
+      "name": "Critic",
+      "role": "Debate + risk analyst",
+      "focus": ["feasibility", "competition", "execution risk", "cashflow realism", "user adoption friction"],
+      "status": "configured"
+    },
+    {
+      "name": "Builder",
+      "role": "Synthesizer + operator",
+      "focus": ["MVP path", "fast experiments", "system design", "weekly execution plans", "asset creation"],
+      "status": "configured"
+    }
+  ],
+  "focusAreas": [
+    "Housify",
+    "KNUT Copilot",
+    "AncestorOS",
+    "Deriv Trading System",
+    "Tausi Africa",
+    "Nairobi Events App",
+    "Martial Arts App",
+    "Farming App",
+    "3D Printing"
+  ]
+}
